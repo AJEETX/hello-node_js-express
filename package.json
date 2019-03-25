@@ -1,8 +1,14 @@
 {
   "name": "hellonode",
   "version": "0.0.1",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
-    "express": "4.15.4"
+    "express": "4.15.4",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0",
+    "swagger-ui-express": "^4.0.2"
   },
   "engines": {
     "node": "6.11.2"
